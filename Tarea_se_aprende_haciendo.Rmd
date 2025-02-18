@@ -1,11 +1,11 @@
 ---
-title: "Se aprende haciendo"
+title: "Análisis descriptivo"
 author: "Econ. Michael Solórzano"
 date: "2024-03-01"
 output: github_document
   
----
-```{r}
+
+```{r Análisis descriptivo de una base de datos de ventas de licores de una empresa de Estados Unidos con mas de 58 mil observaciones y 25 variables}
 library(dplyr)
 data <- read.csv("C:\\Users\\bama1\\Desktop\\PROGRAMA CIENTIFICO DE DATOS\\Modulo 1\\BASES DE DATOS\\Iowa_Liquor_Sales_YG84CD.csv", stringsAsFactors = F, header = T)
 
